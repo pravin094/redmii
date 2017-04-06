@@ -1,14 +1,4 @@
-@media (max-width:700px){
-  body{
 
-
-  }}
-  div{
-    width: auto;
-    margin: 0 auto;
-    border-radius: 0;
-
-  }
  @media only screen and  (min-width:991px){
   .greytext a {
    padding:0px;
@@ -17,11 +7,28 @@
 @media only screen and (min-width:300px){
   .gre .greytext{
     text-align: center;
+
   }
 
 }
-@media only screen and (min-width:400px) {
-  .redmi3s{
-    float: right;
+
+@media only screen and (max-width:767px){
+.topbar .navbar-left{
+  font-size: 5px;
+  float: right;
+}
+}
+@media only screen and (max-width:767px){
+  .milogo{
+    text-align: center;
+
+  }
+}
+@media only screen and (max-width:767px){
+  .navbar-left{
+    text-align:right;
+
+
+
   }
 }
