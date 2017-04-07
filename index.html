@@ -44,10 +44,45 @@
 
     </div></nav>
         </div>
-    <nav class="navbar navbar-default toggle">
-    <div class="container whitebar">
+        <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <div class="milogo-wrapper">
+                <a href="#"><img src="mihome.png"></a>
+            </div>
+          <!-- <a class="navbar-brand" href="#">Bootstrap theme</a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- <nav class="navbar navbar-default toggle">
+    <div class="container">
 
-      <ul class="nav navbar-nav  toggle">
+      <ul class="nav navbar-nav toggle">
         <li><div class="milogo">
         <div class="milogo-wrapper"><a href="#"><img src="mihome.png"></a></div></div></li>
         <li class="category"><a href="#">Mi Phones</a></li>
@@ -63,9 +98,9 @@
 
 
 
-      </div></nav>
-
-        <div class="container-fluid secondary-greybar gre">
+      </div></nav> -->
+<!--
+        <div class="container-fluid secondary-greybar">
         <div class="container">
 
         <ul class="navbar-left gre">  <span class="redmi3s">Redmi 3S</span></ul>
@@ -82,9 +117,13 @@
 
         </div>
       </div>
-      <div class="container">
-<div class="row">
- <img  class="col-md-6 img-responsive threemobile" src="images/3mobile.jpg">
+
+<!--
+  <div class="container">
+
+          <div class="row">
+              <div class="col-md-12 back-img img-responsive">
+   <div class="content">
    <div class="nav4-content">
      <div class="text">
      <h1>Redmi <span style="color:#e53935;">3S</span>
@@ -111,15 +150,16 @@
    </div>
  </div>
 </div>
-</div>
+</div></div>
 
   <nav class="navbar navbar-light" style="background-color:#f7f8f9;">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8"></div>
-          <div class="col-sm-4"></div>
-    <h2 style="font-size:40px;font-weight:400;margin: 100px 300px 30px 300px ;"> Always evolving</h2>
-    <p class="para" style ="font-size:16px;margin: 0px 300px ;">The next step in the Redmi evolution, Redmi 3S is <br>
+        <div class="col-sm-12">
+
+    <h2 class="header"style="font-size:40px;font-weight:400;margin: 100px 300px 30px 300px ;"> Always evolving</h2>
+    <p class="para" style ="font-size:16px;margin: 0px 300px ;">
+      <br>The next step in the Redmi evolution, Redmi 3S is <br>
        dressed in a premium metal body. That's not all, it <br>
        houses a powerful Qualcomm® SnapdragonTM 430 <br>
        processor, massive 4100mAh battery, 13MP Phase <br>
@@ -130,24 +170,34 @@
        combination of these in Redmi 3S are just the tools you <br>
        need to connect, explore and take on the rest of the <br>
        world.<br>
-     </p>
-     <div class="col-md-12 img-responsive pink">
-       <span>
-     <i class="bck-img1"></i><h3>4100mAh</h3>
-    <p>High-capacity battery</p></span>
-    <span>
-  <i class="bck-img1"></i><h4>4G Dual SIM</h4>
-  <p>VoLTE support</p></span>
-  <span>
- <i class="bck-img1"></i><h4>Snapdragon 430</h4>
- <p>Octa-core processor</p></span>
- <span>
- <i class="bck-img1"></i><h4>PDAF</h4>
- <p>13MP rear camera</p></span>
- <span>
- <i class="bck-img1"></i><h4>12.6cm (5) HD display</h4>
- <p>Lightweight 144g</p></span>
-   </div>
+     </p></div>
+      <div class=" img-responsive pink">
+            <div class="backimages1">
+              <div class="bck-img1"></div>
+              <h3>4100mAh</h3>
+              <p>High-capacity battery</p>
+          </div>
+
+          <div class="backimages1">
+            <div class="bck-img2"></div>
+            <h4>4G Dual SIM</h4>
+            <p>VoLTE support</p>
+        </div>
+
+        <div class="backimages1">
+         <div class="bck-img3"></div><h4>Snapdragon 430</h4>
+         <p>Octa-core processor</p>
+     </div>
+
+        <span class="backimages2">
+         <div class="bck-img4"></div><h4>PDAF</h4>
+          <p>13MP rear camera</p></span>
+        <span class="backimages2">
+           <div class="bck-img5"></div><h4>12.6cm (5) HD display</h4>
+            <p>Lightweight 144g</p>
+         </span>
+  </div>
+
 <p><h4 class="title-webfont">Qualcomm &reg; Snapdragon <sup>TM</sup>430<br>
      64-bit, octa-core processor
 </h4></p>
