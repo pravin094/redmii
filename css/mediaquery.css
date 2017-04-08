@@ -4,18 +4,18 @@
    padding:0px;
     }
 }
-@media only screen and (max-width:767px){
-  .gre .greytext{
+@media only screen and (max-width:991px){
+  .grey .greytext{
     text-align: center;
     margin-bottom: 2px;
 
   }
 .gre .greytext a:hover{
-    background-color: #ccc;
+    text-decoration: none;
 }
 .btn-buynow gre{
-    position: relative;
-    left:200px;
+    positi
+
 }
 }
 
@@ -62,32 +62,9 @@ h2 .header{
      z-index: -400px;
    }
 }
-@media only screen and (max-width:991px){
-   .backimages2{
-
-    position: relative;
-    top:40px;
-    right: 710px;
-   }
-}
-@media only screen and (max-width:991px){
-  .content{
-    position: relative;
-    top: 680px;
-    right: 350px;
-    font-size: 10px;
 
 
-  }
-}
-@media only screen and (max-width:991px){
-    .back-img{
-     position: relative;
-     bottom: 300px;
-     left: 150px;
-     z-index: -2;
-    }
-}
+
 @media only screen and (max-width:991px){
     .navbar-right .greytext{
         position: relative;
@@ -95,11 +72,20 @@ h2 .header{
         padding-top: -5px;
     }
 }
-@media only screen and (max-width:991px){
+@media only screen and (max-width:1120px){
     .btn-buynow{
-        position: relative;
-        left: 300px;
-        bottom: 100px;
+        margin-left: 200px;
 
+    }
+}
+@media only screen and (max-width:767px){
+    .secondarymenubar .category {
+        width:100%;
+
+    }
+}
+@media only screen and (min-width:767px)(max-width:1200px){
+    .secondarymenubar .category {
+        font-size: 0.5em;
     }
 }
